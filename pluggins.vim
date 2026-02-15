@@ -13,6 +13,7 @@ Plug 'tpope/vim-surround'
 Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets'
+Plug 'rust-lang/rust.vim'
 " Gestor de archivos
 Plug 'preservim/nerdtree'
 " IDE
