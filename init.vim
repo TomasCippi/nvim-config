@@ -12,6 +12,8 @@ set termguicolors
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set smartindent
+set autoindent
 
 autocmd FileType html command! -buffer OpenInBrowser silent !xdg-open %:p
 

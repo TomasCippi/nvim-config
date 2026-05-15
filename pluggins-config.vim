@@ -22,6 +22,8 @@ let g:NERDTreeShowHidden = 1
 let g:UltiSnipsEditSplit="vertical"
 let g:UltiSnipsSnippetDirectories=["Snippets"]
 
+let g:AutoPairs = {'(':')', '[':']', '{':'}', "'":"'", '"':'"', '`':'`'}
+
 if has("termguicolors")
     " Para terminales con soporte de colores de terminal verdaderos
       hi Normal ctermbg=NONE guibg=NONE
